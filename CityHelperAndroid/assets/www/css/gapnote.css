@@ -1,0 +1,286 @@
+
+
+.ui-page{
+	background: url(../img/bg.jpg) !important;
+	
+		background-size:320px 480px !important;
+}
+
+.ui-btn-active{
+	background:none !important;
+	background-color:#990000 !important;
+	text-shadow: 0 1px 1px #000;
+}
+
+header{
+	border:none !important;
+	background: -webkit-linear-gradient(#3C3C3C,#333) !important;	
+	box-shadow:0px 0px 20px #000;
+}
+
+header h1{
+
+		background-size:40px 40px !important;
+	
+		font-family:Arial,sans-serif;
+		margin:10px !important;
+		font-size:35px !important;
+		color:#e1bb81; 
+		text-shadow: 1px 1px 1px #684925;
+	
+}
+
+header h2{
+
+		background-size:40px 40px !important;
+	
+		font-family:Arial,sans-serif;
+		margin:10px !important;
+		font-size:18px !important;
+		color:#e1bb81; 
+		text-shadow: 1px 1px 1px #684925;
+		text-align: inherit; !important;
+}
+
+#nueva header h1{
+		background-image: url(../img/huella.png) !important;
+		background-repeat:no-repeat !important;	
+}
+
+
+
+footer .ui-btn-active{
+	background:none !important;
+	background-color:#dfa243 !important;
+	text-shadow: 0 1px 1px #000;
+}
+
+.ui-btn-active{
+	background:none !important;
+	background-color:#dfa243 !important;
+	text-shadow: 0 1px 1px #000;
+}
+
+
+.ui-field-contain {
+padding: 0.1em !important;
+margin: 0;
+border-bottom-width: 1px;
+overflow: visible;
+}
+
+
+.ui-btn-inner {
+padding: .1em 25px;
+display: block;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+position: relative;
+zoom: 1;
+}
+
+.classement{
+display:inline-bloc;
+background:url(img/pagination.png) no-repeat  0 -182px;
+height:22px;
+text-indent:-999px;
+font-size:0px;
+}
+
+.field{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#foto,
+.foto{
+	background-size:cover;
+	background-position: center center;
+	width:160px;
+	height:240px;
+	display:none;
+	margin:auto;
+	background-size:cover;
+}
+
+#ver{
+	color:#563919 !important;
+	text-shadow:1px 1px 1px #fcd799 !important;
+}
+
+#ver .titulo{
+	font-size:30px;
+	font-weight: bold;
+}
+
+#ver .descripcion{
+	font-size:22px;
+}
+
+#ver .fecha{
+	font-size:12px;
+	color:#333;
+	text-shadow:none !important;
+}
+
+img{
+max-width: 100%;
+height: auto; width: auto;
+
+box-sizing: border-box;
+}
+
+
+
+/** elegir tipo negocio **/
+
+#tiponegocio .choice_list h1{
+background-position: 0 -72px;
+margin-bottom:20px;
+}
+#tiponegocio .choice_list a{
+padding-top:10px;
+color:rgb(63, 41, 39);
+}
+#tiponegocio .ui-listview-filter a{
+padding-top:0px;
+}
+
+#tiponegocio .ui-btn-active{
+	background-color:#dfa243 !important;
+}
+
+
+/** elegir negocio **/
+
+
+
+#elegirnegocio .classement{
+display:inline-bloc;
+background:url(img/pagination.png) no-repeat  0 -182px;
+height:22px;
+text-indent:-999px;
+font-size:0px;
+}
+
+#elegirnegocio .one{
+width:30px;
+}
+#elegirnegocio .two{
+width:55px;
+}
+#elegirnegocio .three{
+width:75px;
+}
+#elegirnegocio .four{
+width:99px;
+}
+
+
+
+
+
+
+
+/** negocio **/
+
+
+#negocio_infos,
+#opinion_infos,
+#contact_infos {
+color:rgb(63, 41, 39);
+font-size:14px;
+}
+#negocio_infos h1,
+#contact_infos h2,
+#opinion_infos h2,
+#opinion h2
+#notation h2{
+color:rgb(63, 41, 39);
+font-size:18px;
+margin:0 auto 5px auto;
+}
+
+#negocio_infos p,
+#negocio_infos ul,
+#opinion_infos ul,
+#contact_infos p{
+margin:2px auto 5px auto;
+}
+#negocio_infos ul{
+padding:0 0 0 10px;
+}
+#negocio_infos ul  li{
+list-style-type:square;
+margin-left:5px;
+}
+
+#negocio_infos .ui-block-b .ui-btn {
+font-size:12px;
+}
+#negocio_infos .ui-block-b .ui-btn-inner{
+padding:5px;
+}
+
+#contact_buttons a{
+color:rgb(63, 41, 39);
+}
+.ui-icon-maps {
+background: rgb(63, 41, 39) url(img/maps.png) no-repeat;
+}
+.ui-icon-tel{
+background: rgb(63, 41, 39) url(img/phone.png) no-repeat;
+}
+
+
+
+
+
+/** add the stars to the drop down */
+#note_utilisateur-menu a{
+padding-left:100px;
+position:relative;
+}
+
+#note_utilisateur-button span.ui-btn-text{
+background:url(img/pagination.png) no-repeat;
+} 
+
+#note_utilisateur-button span.ui-btn-inner{
+	padding-left:5px;
+} 
+
+#note_utilisateur-menu li a:before{
+content: "   ";
+display:inline-block;
+width:115px;
+height:20px;
+background:url(img/pagination.png) no-repeat;
+position:absolute;
+left:0px;
+}
+.one #note_utilisateur-button span.ui-btn-text,
+#note_utilisateur-menu li a:before{
+background-position: -75px -182px;
+}
+.two #note_utilisateur-button span.ui-btn-text,
+#note_utilisateur-menu li + li a:before{
+background-position: -52px -182px;
+}
+.three #note_utilisateur-button span.ui-btn-text,
+#note_utilisateur-menu li + li +li a:before{
+background-position: -27px -182px;
+}
+.four #note_utilisateur-button span.ui-btn-text,
+#note_utilisateur-menu li + li +li +li a:before{
+background-position: -2px -182px;
+}
+
+
+
+
+
+
+
+
